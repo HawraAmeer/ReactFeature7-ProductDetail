@@ -6,17 +6,22 @@ export const Description = styled.h4`
 
 export const DetailWrapper = styled.div`
   display: block;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  text-align: center;
 
   img {
-    width: 40%;
-    float: left;
+    width: 30%;
   }
 
   p {
     vertical-align: middle;
+  }
+
+  button {
+    margin-bottom: 20px;
   }
 `;
 
